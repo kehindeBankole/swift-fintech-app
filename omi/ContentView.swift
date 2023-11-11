@@ -7,15 +7,14 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    @State private var current = 0
+    init(current: Int = 0) {
+        self.current = current
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Onboarding()
     }
 }
 
