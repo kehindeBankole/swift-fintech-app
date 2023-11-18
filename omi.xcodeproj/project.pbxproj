@@ -11,7 +11,6 @@
 		45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */; };
 		45CB9D022AFFDA50003A96DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D012AFFDA50003A96DB /* Assets.xcassets */; };
 		45CB9D052AFFDA50003A96DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */; };
-		45CB9D0C2AFFDD9D003A96DB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D0B2AFFDD9D003A96DB /* Model.swift */; };
 		45CB9D122B000360003A96DB /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D112B000360003A96DB /* DMSans-Bold.ttf */; };
 		45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D132B000A24003A96DB /* OnboardData.swift */; };
 		45CB9D162B000B19003A96DB /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D152B000B19003A96DB /* Raleway-Regular.ttf */; };
@@ -24,7 +23,6 @@
 		45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45CB9D012AFFDA50003A96DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		45CB9D0B2AFFDD9D003A96DB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		45CB9D102B00021F003A96DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		45CB9D112B000360003A96DB /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		45CB9D132B000A24003A96DB /* OnboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */,
 				45CB9D012AFFDA50003A96DB /* Assets.xcassets */,
 				45CB9D032AFFDA50003A96DB /* Preview Content */,
-				45CB9D0B2AFFDD9D003A96DB /* Model.swift */,
 				45CB9D112B000360003A96DB /* DMSans-Bold.ttf */,
 				45CB9D152B000B19003A96DB /* Raleway-Regular.ttf */,
 			);
@@ -156,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CB9D0C2AFFDD9D003A96DB /* Model.swift in Sources */,
 				45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */,
 				45CB9D182B00106F003A96DB /* Onboarding.swift in Sources */,
 				45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */,
