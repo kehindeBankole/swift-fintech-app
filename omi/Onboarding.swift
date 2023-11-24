@@ -13,47 +13,59 @@ struct Onboarding: View {
         UIScrollView.appearance().bounces = false
     }
     var body: some View {
-        VStack{
-         
-            HStack{
-                Spacer()
-                Button(action: {
-                    withAnimation{
-                        current = OnboardStep.count - 1
+        NavigationStack{
+            VStack{
+             
+                HStack{
+                    Spacer()
+                    Button(action: {
+                        withAnimation{
+                            current = OnboardStep.count - 1
+                        }
+                    }){
+                        Text("Skip").font(.custom("DMSans-Regular", size: 16))
+
                     }
-                }){
-                    Text("Skip")
                 }
-            }
-            TabView(selection: $current, content: {
-                ForEach(0..<OnboardStep.count , id: \.self){step in
-                    VStack(alignment: .center) {
-                        Image(OnboardStep[step].image)
-                            .resizable()
-                            .scaledToFit()
-                        
-                        Text(OnboardStep[step].title).fontWeight(.bold).multilineTextAlignment(.center).padding([.top] , 50).font(.custom("DMSans-Bold", size: 27)).fontWeight(.bold)
-                        
-                        Text(OnboardStep[step].subtitle).fontWeight(.bold).multilineTextAlignment(.center).padding([.top] , 10).font(.custom("Raleway-Regular", size: 17))
-                        
+                TabView(selection: $current, content: {
+                    ForEach(0..<OnboardStep.count , id: \.self){step in
+                        VStack(alignment: .center) {
+                            Image(OnboardStep[step].image)
+                            
+                            Text(OnboardStep[step].title).fontWeight(.bold).multilineTextAlignment(.center).padding([.top] , 50).font(.custom("TomatoGrotesk-Bold", size: 27)).fontWeight(.bold)
+                            
+                            Text(OnboardStep[step].subtitle).fontWeight(.bold).multilineTextAlignment(.center).padding([.top] , 10).font(.custom("DMSans-Regular", size: 17))
+                            
+                        }
+                        .tag(step)
                     }
-                    .tag(step)
-                }
+                    
+                }).tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 
-            }).tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            
-            Button(action: {
+                
                 if(current != OnboardStep.count-1){
-                    withAnimation{
-                        current += 1
-                    }
-                }
+                    Button(action: {
+                            withAnimation{
+                                current += 1
+                            }
+                        
+                    } , label:{
+                        Text(current==OnboardStep.count-1 ? "Log in": "Next").padding(16).foregroundColor(.white).fontWeight(.bold)
+                    }).contentShape(Rectangle()).frame(maxWidth: .infinity).buttonStyle(PlainButtonStyle()).background(Color("BrandBlue")).cornerRadius(16)
+
+                }else{
+                    NavigationLink(destination: Login(), label: {
+                        Text( "Log in").padding(16).foregroundColor(.white).fontWeight(.bold).contentShape(Rectangle()).frame(maxWidth: .infinity).buttonStyle(PlainButtonStyle()).background(Color("BrandBlue")).cornerRadius(16)
                 
-            } , label:{
-                Text(current==OnboardStep.count-1 ? "Log in": "Next").padding(16).foregroundColor(.white).fontWeight(.bold)
-            }).contentShape(Rectangle()).frame(maxWidth: .infinity).buttonStyle(PlainButtonStyle()).background(Color("BrandBlue")).cornerRadius(16)
+                    }).simultaneousGesture(TapGesture().onEnded {
+                        UserDefaults.standard.set(true, forKey: onboardKey)
+                    })
+
+                }
+             
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

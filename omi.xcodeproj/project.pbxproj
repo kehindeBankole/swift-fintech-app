@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459929752B097E2A007F5983 /* TomatoGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */; };
+		459929772B097E6B007F5983 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 459929762B097E6B007F5983 /* DMSans-Regular.ttf */; };
 		45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9CFD2AFFDA4F003A96DB /* omiApp.swift */; };
 		45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */; };
 		45CB9D022AFFDA50003A96DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D012AFFDA50003A96DB /* Assets.xcassets */; };
 		45CB9D052AFFDA50003A96DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */; };
-		45CB9D122B000360003A96DB /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D112B000360003A96DB /* DMSans-Bold.ttf */; };
 		45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D132B000A24003A96DB /* OnboardData.swift */; };
-		45CB9D162B000B19003A96DB /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D152B000B19003A96DB /* Raleway-Regular.ttf */; };
 		45CB9D182B00106F003A96DB /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D172B00106F003A96DB /* Onboarding.swift */; };
+		45F0E81B2B090EDE00F90BD6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0E81A2B090EDE00F90BD6 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TomatoGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		459929762B097E6B007F5983 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
 		45CB9CFA2AFFDA4F003A96DB /* omi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CB9CFD2AFFDA4F003A96DB /* omiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omiApp.swift; sourceTree = "<group>"; };
 		45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		45CB9D012AFFDA50003A96DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45CB9D102B00021F003A96DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		45CB9D112B000360003A96DB /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 		45CB9D132B000A24003A96DB /* OnboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
-		45CB9D152B000B19003A96DB /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		45CB9D172B00106F003A96DB /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		45F0E81A2B090EDE00F90BD6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 		45CB9CFC2AFFDA4F003A96DB /* omi */ = {
 			isa = PBXGroup;
 			children = (
+				459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */,
+				45F0E8192B090EBF00F90BD6 /* auth */,
 				45CB9D172B00106F003A96DB /* Onboarding.swift */,
 				45CB9D102B00021F003A96DB /* Info.plist */,
 				45CB9D132B000A24003A96DB /* OnboardData.swift */,
@@ -67,8 +71,7 @@
 				45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */,
 				45CB9D012AFFDA50003A96DB /* Assets.xcassets */,
 				45CB9D032AFFDA50003A96DB /* Preview Content */,
-				45CB9D112B000360003A96DB /* DMSans-Bold.ttf */,
-				45CB9D152B000B19003A96DB /* Raleway-Regular.ttf */,
+				459929762B097E6B007F5983 /* DMSans-Regular.ttf */,
 			);
 			path = omi;
 			sourceTree = "<group>";
@@ -79,6 +82,14 @@
 				45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45F0E8192B090EBF00F90BD6 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				45F0E81A2B090EDE00F90BD6 /* Login.swift */,
+			);
+			path = auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CB9D052AFFDA50003A96DB /* Preview Assets.xcassets in Resources */,
-				45CB9D122B000360003A96DB /* DMSans-Bold.ttf in Resources */,
 				45CB9D022AFFDA50003A96DB /* Assets.xcassets in Resources */,
-				45CB9D162B000B19003A96DB /* Raleway-Regular.ttf in Resources */,
+				459929772B097E6B007F5983 /* DMSans-Regular.ttf in Resources */,
+				459929752B097E2A007F5983 /* TomatoGrotesk-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */,
+				45F0E81B2B090EDE00F90BD6 /* Login.swift in Sources */,
 				45CB9D182B00106F003A96DB /* Onboarding.swift in Sources */,
 				45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */,
 				45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */,

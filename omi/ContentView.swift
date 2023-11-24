@@ -14,7 +14,11 @@ struct ContentView: View {
         self.current = current
     }
     var body: some View {
-        Onboarding()
+        if(UserDefaults.standard.bool(forKey: onboardKey)){
+            Login()
+        }else{
+            Onboarding()
+        }
     }
 }
 

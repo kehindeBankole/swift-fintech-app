@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "LogoOnboarding.png",
+      "filename" : "Trust.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LogoOnboarding 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "LogoOnboarding 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
