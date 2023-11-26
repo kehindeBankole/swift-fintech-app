@@ -8,5 +8,10 @@
 		<string>DMSans-Regular.ttf</string>
 		<string>DMSans-Bold.ttf</string>
 	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>BrandBlue</string>
+	</dict>
 </dict>
 </plist>
