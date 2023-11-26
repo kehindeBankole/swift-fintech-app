@@ -57,7 +57,13 @@ struct Login: View {
                                 Image(systemName: "lock.circle")
                                     .resizable()
                                     .frame(width: 24, height: 24).foregroundColor(.gray)
-                                TextField("", text: $value)
+                                
+                                if(showPassword){
+                                    TextField("", text: $value)
+                                }else{
+                                    SecureField("", text: $value)
+                                }
+                                
                                 Button(action: {
                                     showPassword.toggle()
                                 }, label: {
