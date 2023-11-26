@@ -59,10 +59,9 @@ struct Login: View {
                                     .frame(width: 24, height: 24).foregroundColor(.gray)
                                 
                                 if(showPassword){
-                                    TextField("", text: $value)
+                                    TextField("", text: $value).font(.custom("DMSans-Regular", size: 18))
                                 }else{
-                                    SecureField("", text: $value)
-                                }
+                                    SecureField("", text: $value)                                }
                                 
                                 Button(action: {
                                     showPassword.toggle()
