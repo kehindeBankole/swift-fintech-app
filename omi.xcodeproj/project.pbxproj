@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458FA9BE2B11664700BB3C62 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458FA9BD2B11664700BB3C62 /* Signup.swift */; };
 		459929752B097E2A007F5983 /* TomatoGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */; };
 		459929772B097E6B007F5983 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 459929762B097E6B007F5983 /* DMSans-Regular.ttf */; };
+		45CB30E52B1261D900DAE216 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45CB30E42B1261D900DAE216 /* DMSans-Bold.ttf */; };
+		45CB30E82B12A64300DAE216 /* Dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB30E72B12A64300DAE216 /* Dropdown.swift */; };
 		45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9CFD2AFFDA4F003A96DB /* omiApp.swift */; };
 		45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */; };
 		45CB9D022AFFDA50003A96DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D012AFFDA50003A96DB /* Assets.xcassets */; };
 		45CB9D052AFFDA50003A96DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CB9D042AFFDA50003A96DB /* Preview Assets.xcassets */; };
 		45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D132B000A24003A96DB /* OnboardData.swift */; };
 		45CB9D182B00106F003A96DB /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CB9D172B00106F003A96DB /* Onboarding.swift */; };
+		45DCB5ED2B13B9D80047055C /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DCB5EC2B13B9D80047055C /* ForgotPassword.swift */; };
+		45DCB5F02B13BB090047055C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DCB5EF2B13BB090047055C /* Home.swift */; };
 		45F0E81B2B090EDE00F90BD6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F0E81A2B090EDE00F90BD6 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		458FA9BD2B11664700BB3C62 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TomatoGrotesk-Bold.otf"; sourceTree = "<group>"; };
 		459929762B097E6B007F5983 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		45CB30E42B1261D900DAE216 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		45CB30E72B12A64300DAE216 /* Dropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropdown.swift; sourceTree = "<group>"; };
 		45CB9CFA2AFFDA4F003A96DB /* omi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CB9CFD2AFFDA4F003A96DB /* omiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omiApp.swift; sourceTree = "<group>"; };
 		45CB9CFF2AFFDA4F003A96DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +37,8 @@
 		45CB9D102B00021F003A96DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		45CB9D132B000A24003A96DB /* OnboardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardData.swift; sourceTree = "<group>"; };
 		45CB9D172B00106F003A96DB /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		45DCB5EC2B13B9D80047055C /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		45DCB5EF2B13BB090047055C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		45F0E81A2B090EDE00F90BD6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45CB30E62B12A62600DAE216 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				45CB30E72B12A64300DAE216 /* Dropdown.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		45CB9CF12AFFDA4F003A96DB = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +80,8 @@
 		45CB9CFC2AFFDA4F003A96DB /* omi */ = {
 			isa = PBXGroup;
 			children = (
+				45DCB5EE2B13BAFB0047055C /* pages */,
+				45CB30E62B12A62600DAE216 /* components */,
 				459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */,
 				45F0E8192B090EBF00F90BD6 /* auth */,
 				45CB9D172B00106F003A96DB /* Onboarding.swift */,
@@ -72,6 +92,7 @@
 				45CB9D012AFFDA50003A96DB /* Assets.xcassets */,
 				45CB9D032AFFDA50003A96DB /* Preview Content */,
 				459929762B097E6B007F5983 /* DMSans-Regular.ttf */,
+				45CB30E42B1261D900DAE216 /* DMSans-Bold.ttf */,
 			);
 			path = omi;
 			sourceTree = "<group>";
@@ -84,10 +105,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		45DCB5EE2B13BAFB0047055C /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				45DCB5EF2B13BB090047055C /* Home.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
 		45F0E8192B090EBF00F90BD6 /* auth */ = {
 			isa = PBXGroup;
 			children = (
 				45F0E81A2B090EDE00F90BD6 /* Login.swift */,
+				458FA9BD2B11664700BB3C62 /* Signup.swift */,
+				45DCB5EC2B13B9D80047055C /* ForgotPassword.swift */,
 			);
 			path = auth;
 			sourceTree = "<group>";
@@ -151,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CB9D052AFFDA50003A96DB /* Preview Assets.xcassets in Resources */,
+				45CB30E52B1261D900DAE216 /* DMSans-Bold.ttf in Resources */,
 				45CB9D022AFFDA50003A96DB /* Assets.xcassets in Resources */,
 				459929772B097E6B007F5983 /* DMSans-Regular.ttf in Resources */,
 				459929752B097E2A007F5983 /* TomatoGrotesk-Bold.otf in Resources */,
@@ -167,8 +199,12 @@
 				45CB9D002AFFDA4F003A96DB /* ContentView.swift in Sources */,
 				45F0E81B2B090EDE00F90BD6 /* Login.swift in Sources */,
 				45CB9D182B00106F003A96DB /* Onboarding.swift in Sources */,
+				45DCB5ED2B13B9D80047055C /* ForgotPassword.swift in Sources */,
+				45DCB5F02B13BB090047055C /* Home.swift in Sources */,
 				45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */,
 				45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */,
+				458FA9BE2B11664700BB3C62 /* Signup.swift in Sources */,
+				45CB30E82B12A64300DAE216 /* Dropdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

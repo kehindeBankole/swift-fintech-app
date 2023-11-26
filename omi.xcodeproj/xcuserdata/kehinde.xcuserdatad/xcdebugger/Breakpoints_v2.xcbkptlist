@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5D14D4E3-41C5-41A2-BD9C-47EAE2402431"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "450AEC3F-DAA4-4E90-9D5F-7434A9206DEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "omi/components/Dropdown.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "Dropdown"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "450AEC3F-DAA4-4E90-9D5F-7434A9206DEB - ad883a1bad6b7673"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "omi.Dropdown.init(selectedValue: SwiftUI.Binding&lt;Swift.String&gt;, isSelecting: SwiftUI.Binding&lt;Swift.Bool&gt;, selectedRowId: SwiftUI.Binding&lt;Swift.Int&gt;, data: SwiftUI.Binding&lt;Swift.Array&lt;omi.DropdownItem&gt;&gt;) -&gt; omi.Dropdown"
+                  moduleName = "omi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/omi/omi/components/Dropdown.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "450AEC3F-DAA4-4E90-9D5F-7434A9206DEB - c2d46f96104dee1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "omi.Dropdown.init(selectedValue: SwiftUI.Binding&lt;Swift.String&gt;, isSelecting: SwiftUI.Binding&lt;Swift.Bool&gt;, selectedRowId: SwiftUI.Binding&lt;Swift.Int&gt;, data: Swift.Array&lt;omi.DropdownItem&gt;) -&gt; omi.Dropdown"
+                  moduleName = "omi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/omi/omi/components/Dropdown.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

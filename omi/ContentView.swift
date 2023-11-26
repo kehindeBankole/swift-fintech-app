@@ -15,7 +15,7 @@ struct ContentView: View {
     }
     var body: some View {
         if(UserDefaults.standard.bool(forKey: onboardKey)){
-            Login()
+            Signup()
         }else{
             Onboarding()
         }
