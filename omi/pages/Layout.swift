@@ -25,7 +25,7 @@ struct Layout: View {
             }.edgesIgnoringSafeArea(.all)
             Spacer()
             Tabs(currentTab: $currentTab)
-        }.edgesIgnoringSafeArea(.all)
+        }.edgesIgnoringSafeArea(.all).navigationBarBackButtonHidden(true)
         
     }
 }

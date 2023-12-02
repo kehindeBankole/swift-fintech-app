@@ -84,7 +84,7 @@ struct Login: View {
                             
                         }
                         
-                        NavigationLink(destination: Home(), label: {
+                        NavigationLink(destination: Layout(), label: {
                             Text( "Log in").padding(20).foregroundColor(.white).fontWeight(.bold).contentShape(Rectangle()).frame(maxWidth: .infinity).buttonStyle(PlainButtonStyle()).background(Color("BrandBlue")).cornerRadius(16)
                             
                         }).padding(.top , 40)
