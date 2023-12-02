@@ -21,7 +21,12 @@ struct Tabs: View {
                     currentTab = tab
                     print(tab)
                 }label:{
-                    Image(systemName: myDictionary[tab] ?? "").foregroundColor(currentTab == tab ? Color("BrandBlue") : .black).font(.system(size:25))
+                    VStack{
+                        Image(systemName: myDictionary[tab] ?? "").foregroundColor(currentTab == tab ? Color("BrandBlue") : .black).font(.system(size:25))
+                        if(tab == currentTab){
+                            Circle().frame(width: 5,height: 5)
+                        }
+                    }
                 }
                 Spacer()
                 
