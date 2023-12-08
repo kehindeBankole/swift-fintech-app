@@ -32,6 +32,6 @@ struct Tabs: View {
                 
             }
         }.frame(maxWidth: .infinity).frame(height:30)
-            .padding(.vertical,40).shadow(radius: 15).shadow(radius: 8)
+            .padding(.vertical,40)
     }
 }
