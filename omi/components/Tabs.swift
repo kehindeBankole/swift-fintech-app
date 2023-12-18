@@ -9,8 +9,10 @@ import SwiftUI
 
 struct Tabs: View {
     @Binding var currentTab:String
+    @Binding var prevTabs:[String]
     let tabs = ["home" , "spending" , "scan" ,  "support" , "profile" ]
     let myDictionary = ["home": "house" , "profile":"person.crop.circle" , "spending":"chart.pie.fill" , "support":"message" , "scan":"qrcode.viewfinder"]
+    
     
     var body: some View {
         HStack{
@@ -19,7 +21,7 @@ struct Tabs: View {
            
                 Button{
                     currentTab = tab
-                    print(tab)
+                    prevTabs.append(tab)
                 }label:{
                     VStack{
                         Image(systemName: myDictionary[tab] ?? "").foregroundColor(currentTab == tab ? Color("BrandBlue") : .black).font(.system(size:25))

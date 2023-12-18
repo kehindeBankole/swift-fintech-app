@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct Support: View {
+    @Binding var currentTab:String
+    @Binding var prevPage:String 
     
     var body: some View {
         NavigationStack{
             VStack{
-                
+                Text("\(prevPage)")
                 Spacer()
                 
             }.padding(.horizontal , 20).toolbar{
                 ToolbarItem(placement: .topBarLeading, content: {
                     
                     Button(action: {
-                        //go back to
+                        currentTab = prevPage
                     }, label: {
                         Image(systemName: "chevron.backward").foregroundStyle(.black)
                     })
@@ -27,8 +29,4 @@ struct Support: View {
             }.navigationTitle("Support").navigationBarTitleDisplayMode(.inline)
         }
     }
-}
-
-#Preview {
-    Support()
 }
