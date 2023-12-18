@@ -90,7 +90,7 @@ struct Home: View {
                                 Text("Available Balance").font(.custom("DMSans-Regular", size: 16)).foregroundStyle(Color("DarkWhite"))
                                 
                                 Button(action: {
-                                    print("ss")
+                                
                                 }, label: {
                                     HStack{
                                         Group{
