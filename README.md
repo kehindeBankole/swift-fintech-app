@@ -12,3 +12,4 @@
 
 <img src = "https://github.com/kehindeBankole/swift-fintech-app/assets/33335391/51649154-d7ab-4c64-832c-b93a9d2a76ad" height="500" />
 
+<img src = "https://github.com/kehindeBankole/swift-fintech-app/assets/33335391/ca5bcf1c-2e9d-4cbf-a067-785db16e3b54" height="500" />
