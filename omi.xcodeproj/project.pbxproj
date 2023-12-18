@@ -10,6 +10,7 @@
 		451023AE2B1BDB4C007D0207 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451023AD2B1BDB4C007D0207 /* Tabs.swift */; };
 		451023B02B1BDC08007D0207 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451023AF2B1BDC08007D0207 /* Layout.swift */; };
 		451023B22B1BE14F007D0207 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451023B12B1BE14F007D0207 /* Profile.swift */; };
+		457E97C82B307E92002AF9B1 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457E97C72B307E92002AF9B1 /* Support.swift */; };
 		458FA9BE2B11664700BB3C62 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458FA9BD2B11664700BB3C62 /* Signup.swift */; };
 		459929752B097E2A007F5983 /* TomatoGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */; };
 		459929772B097E6B007F5983 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 459929762B097E6B007F5983 /* DMSans-Regular.ttf */; };
@@ -30,6 +31,7 @@
 		451023AD2B1BDB4C007D0207 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		451023AF2B1BDC08007D0207 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 		451023B12B1BE14F007D0207 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		457E97C72B307E92002AF9B1 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		458FA9BD2B11664700BB3C62 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		459929742B097E2A007F5983 /* TomatoGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TomatoGrotesk-Bold.otf"; sourceTree = "<group>"; };
 		459929762B097E6B007F5983 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				45DCB5EF2B13BB090047055C /* Home.swift */,
 				451023AF2B1BDC08007D0207 /* Layout.swift */,
 				451023B12B1BE14F007D0207 /* Profile.swift */,
+				457E97C72B307E92002AF9B1 /* Support.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				45DCB5F02B13BB090047055C /* Home.swift in Sources */,
 				45CB9CFE2AFFDA4F003A96DB /* omiApp.swift in Sources */,
 				451023B02B1BDC08007D0207 /* Layout.swift in Sources */,
+				457E97C82B307E92002AF9B1 /* Support.swift in Sources */,
 				45CB9D142B000A24003A96DB /* OnboardData.swift in Sources */,
 				458FA9BE2B11664700BB3C62 /* Signup.swift in Sources */,
 				45CB30E82B12A64300DAE216 /* Dropdown.swift in Sources */,

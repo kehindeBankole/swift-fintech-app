@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Layout: View {
-    @State var currentTab = "home"
+    @State var currentTab = "support"
     
     init(){
         UITabBar.appearance().isHidden = true
@@ -21,6 +21,7 @@ struct Layout: View {
             TabView(selection: $currentTab){
                 Home()
                 Profile().tag("profile")
+                Support().tag("support")
                 Spacer()
             }.edgesIgnoringSafeArea(.all)
             Spacer()
